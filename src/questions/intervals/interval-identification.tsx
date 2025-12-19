@@ -1,7 +1,7 @@
 import { Trans } from '@lingui/react/macro';
 import { Note } from '@nilscox/music-tools';
 import { Play } from 'lucide-react';
-import { useEffect } from 'react';
+import { useCallback, useEffect } from 'react';
 
 import { IntervalPicker } from '../../components/interval-picker';
 import { QuestionText } from '../../components/question-text';
@@ -19,9 +19,10 @@ export function IntervalIdentification({
   const questionNumber = useAppSelector(selectQuestionNumber);
   const playType = useAppSelector(selectPlayType);
 
-  const notes = (value = question.interval) => {
-    return [question.root, question.root.transpose(value)];
-  };
+  const notes = useCallback(
+    (value = question.interval) => [question.root, question.root.transpose(value)],
+    [question],
+  );
 
   const play = (notes: Note[]) => {
     piano.play(notes, playType);
@@ -29,7 +30,7 @@ export function IntervalIdentification({
 
   useEffect(() => {
     play(notes());
-  }, []);
+  }, [notes]);
 
   return (
     <>

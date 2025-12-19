@@ -1,6 +1,6 @@
 import { Note } from '@nilscox/music-tools';
 import clsx from 'clsx';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import { assert } from '../utils/assert';
 import { Accidental } from './accidental';
@@ -12,6 +12,13 @@ export function NotePicker({ answer, onSelected }: { answer?: Note; onSelected: 
   const [selectedAlteration, setSelectedAlteration] = useState<0 | -1 | 1>();
 
   const didAnswer = answer !== undefined;
+
+  useEffect(() => {
+    if (!answer) {
+      setSelectedPitchClass(undefined);
+      setSelectedAlteration(undefined);
+    }
+  }, [answer]);
 
   return (
     <div className="col gap-8 items-center justify-center">

@@ -39,7 +39,7 @@ msgstr "si"
 msgid "C"
 msgstr "do"
 
-#: src/pages/session.tsx:145
+#: src/pages/session.tsx:125
 msgid "Continue"
 msgstr "Continuer"
 
@@ -115,9 +115,17 @@ msgstr "mineure"
 msgid "ninth"
 msgstr "neuvième"
 
+#: src/pages/home.tsx:38
+msgid "Number of questions"
+msgstr "Nombre de questions"
+
 #: src/components/interval-name.tsx:14
 msgid "octave"
 msgstr "octave"
+
+#: src/pages/home.tsx:125
+msgid "Or"
+msgstr "Ou"
 
 #: src/components/interval-name.tsx:29
 msgid "perfect"
@@ -143,9 +151,9 @@ msgstr "♯"
 msgid "sixth"
 msgstr "sixte"
 
-#: src/pages/home.tsx:29
-msgid "Start session"
-msgstr "Démarrer une session"
+#: src/pages/home.tsx:137
+msgid "Start random session"
+msgstr "Démarrer une session aléatoire"
 
 #: src/components/interval-name.tsx:16
 msgid "tenth"
@@ -162,6 +170,10 @@ msgstr "treizième"
 #: src/components/interval-name.tsx:18
 msgid "twelfth"
 msgstr "douzième"
+
+#: src/pages/home.tsx:58
+msgid "Type of question"
+msgstr "Type de question"
 
 #: src/components/interval-name.tsx:7
 msgid "unison"
