@@ -1,0 +1,32 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Inter Variable', sans-serif;
+}
+
+@layer base {
+  * {
+    border: var(--color-slate-300);
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-slate-50);
+    color: var(--color-neutral-800);
+  }
+
+  button:not(:disabled),
+  [role='button']:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+@utility col {
+  display: flex;
+  flex-direction: column;
+}
+
+@utility row {
+  display: flex;
+  flex-direction: row;
+}

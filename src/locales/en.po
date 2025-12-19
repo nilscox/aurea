@@ -1,0 +1,188 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2025-10-11 00:36+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#. js-lingui-explicit-id
+#: src/components/note-name.tsx:23
+msgid "Note name"
+msgstr "{name}{alteration}"
+
+#. js-lingui-explicit-id
+#: src/components/interval-name.tsx:42
+msgid "Interval name"
+msgstr "<0/> <1/>"
+
+#: src/components/note-name.tsx:11
+msgid "A"
+msgstr "A"
+
+#: src/components/interval-name.tsx:32
+msgid "augmented"
+msgstr "augmented"
+
+#: src/components/note-name.tsx:12
+msgid "B"
+msgstr "B"
+
+#: src/components/note-name.tsx:6
+msgid "C"
+msgstr "C"
+
+#: src/pages/session.tsx:145
+msgid "Continue"
+msgstr "Continue"
+
+#: src/components/note-name.tsx:7
+msgid "D"
+msgstr "D"
+
+#: src/components/interval-name.tsx:34
+msgid "diminished"
+msgstr "diminished"
+
+#: src/components/note-name.tsx:16
+msgid "double flat"
+msgstr "double flat"
+
+#: src/components/interval-name.tsx:21
+msgid "double octave"
+msgstr "double octave"
+
+#: src/components/note-name.tsx:19
+msgid "double sharp"
+msgstr "double sharp"
+
+#: src/components/interval-name.tsx:33
+msgid "doubly augmented"
+msgstr "doubly augmented"
+
+#: src/components/interval-name.tsx:35
+msgid "doubly diminished"
+msgstr "doubly diminished"
+
+#: src/components/note-name.tsx:8
+msgid "E"
+msgstr "E"
+
+#: src/components/interval-name.tsx:17
+msgid "eleventh"
+msgstr "eleventh"
+
+#: src/components/note-name.tsx:9
+msgid "F"
+msgstr "F"
+
+#: src/components/interval-name.tsx:11
+msgid "fifth"
+msgstr "fifth"
+
+#: src/components/note-name.tsx:17
+msgid "flat"
+msgstr "flat"
+
+#: src/components/interval-name.tsx:20
+msgid "fourteenth"
+msgstr "fourteenth"
+
+#: src/components/interval-name.tsx:10
+msgid "fourth"
+msgstr "fourth"
+
+#: src/components/note-name.tsx:10
+msgid "G"
+msgstr "G"
+
+#: src/components/interval-name.tsx:30
+msgid "major"
+msgstr "major"
+
+#: src/components/interval-name.tsx:31
+msgid "minor"
+msgstr "minor"
+
+#: src/components/interval-name.tsx:15
+msgid "ninth"
+msgstr "ninth"
+
+#: src/components/interval-name.tsx:14
+msgid "octave"
+msgstr "octave"
+
+#: src/components/interval-name.tsx:29
+msgid "perfect"
+msgstr "perfect"
+
+#: src/components/question-text.tsx:12
+msgid "Question {number}"
+msgstr "Question {number}"
+
+#: src/components/interval-name.tsx:8
+msgid "second"
+msgstr "second"
+
+#: src/components/interval-name.tsx:13
+msgid "seventh"
+msgstr "seventh"
+
+#: src/components/note-name.tsx:18
+msgid "sharp"
+msgstr "sharp"
+
+#: src/components/interval-name.tsx:12
+msgid "sixth"
+msgstr "sixth"
+
+#: src/pages/home.tsx:29
+msgid "Start session"
+msgstr "Start session"
+
+#: src/components/interval-name.tsx:16
+msgid "tenth"
+msgstr "tenth"
+
+#: src/components/interval-name.tsx:9
+msgid "third"
+msgstr "third"
+
+#: src/components/interval-name.tsx:19
+msgid "thirteenth"
+msgstr "thirteenth"
+
+#: src/components/interval-name.tsx:18
+msgid "twelfth"
+msgstr "twelfth"
+
+#: src/components/interval-name.tsx:7
+msgid "unison"
+msgstr "unison"
+
+#: src/questions/intervals/notes-to-interval.tsx:31
+msgid "What is the interval between a {note1} and a {note2}?"
+msgstr "What is the interval between a {note1} and a {note2}?"
+
+#: src/questions/intervals/interval-inversion.tsx:24
+msgid "What is the inversion of a {interval}?"
+msgstr "What is the inversion of a {interval}?"
+
+#: src/questions/intervals/interval-identification.tsx:38
+msgid "What is this interval?"
+msgstr "What is this interval?"
+
+#: src/questions/intervals/interval-to-note.tsx:32
+msgid "What note do we get when transposing a {note} of a {interval}?"
+msgstr "What note do we get when transposing a {note} of a {interval}?"
+
+#: src/questions/intervals/semitones-to-interval.tsx:20
+msgid "Which interval contains {semitones} semitones?"
+msgstr "Which interval contains {semitones} semitones?"
