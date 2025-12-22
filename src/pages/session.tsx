@@ -1,11 +1,11 @@
 import { Trans } from '@lingui/react/macro';
 import { ArrowLeft } from 'lucide-react';
 import { ComponentType, Fragment, use } from 'react';
-import { Link } from 'react-router';
+import { Link, Navigate } from 'react-router';
 
-import { Button } from '../components/button';
-import * as questions from '../domain/questions';
-import { Question } from '../domain/questions/question';
+import { Button } from 'src/components/ui/button';
+import * as questions from 'src/domain/questions';
+import { Question } from 'src/domain/questions/question';
 import {
   questionCompleted,
   selectCorrectAnswers,
@@ -14,17 +14,17 @@ import {
   selectIsSessionCompleted,
   selectQuestions,
   selectSessionProgress,
-} from '../domain/session.slice';
+} from 'src/domain/session.slice';
 import {
   IntervalIdentification,
   IntervalInversion,
   IntervalToNote,
   NotesToInterval,
   SemitonesToInterval,
-} from '../questions';
-import { useAppDispatch, useAppSelector } from '../store';
-import { assert } from '../utils/assert';
-import { Piano } from '../utils/piano';
+} from 'src/questions';
+import { useAppDispatch, useAppSelector } from 'src/store';
+import { assert } from 'src/utils/assert';
+import { Piano } from 'src/utils/piano';
 
 const pianoPromise = (async () => {
   const piano = await Piano.load();
@@ -46,6 +46,10 @@ export function Session() {
   const score = () => {
     return `${correctAnswers.length} / ${questions.length}`;
   };
+
+  if (questions.length === 0) {
+    return <Navigate to="/session/new" />;
+  }
 
   return (
     <>

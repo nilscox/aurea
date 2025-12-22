@@ -87,6 +87,26 @@ msgstr "fa"
 msgid "fifth"
 msgstr "quinte"
 
+#: src/pages/new-session.tsx:79
+msgid "Find the interval between two notes"
+msgstr "Trouver l'intervalle entre deux notes"
+
+#: src/pages/new-session.tsx:67
+msgid "Find the interval between two played notes"
+msgstr "Trouver l'intervalle entre deux notes jouées"
+
+#: src/pages/new-session.tsx:83
+msgid "Find the interval containing a given number of semitones"
+msgstr "Trouver l'intervalle contenant un nombre de demi-tons donnés"
+
+#: src/pages/new-session.tsx:71
+msgid "Find the inversion of an interval"
+msgstr "Trouver l'inversion d'un intervalle"
+
+#: src/pages/new-session.tsx:75
+msgid "Find the outcome of transposing a note by an interval"
+msgstr "Trouver la note obtenue en transposant une note donnée d'un intervalle"
+
 #: src/components/note-name.tsx:17
 msgid "flat"
 msgstr "♭"
@@ -103,6 +123,22 @@ msgstr "quarte"
 msgid "G"
 msgstr "sol"
 
+#: src/pages/new-session.tsx:82
+msgid "Interval from semitones"
+msgstr "Intervalle à partir de demi-tons"
+
+#: src/pages/new-session.tsx:78
+msgid "Interval from two notes"
+msgstr "Intervalle à partir de deux notes"
+
+#: src/pages/new-session.tsx:66
+msgid "Interval identification"
+msgstr "Identification d'intervalle"
+
+#: src/pages/new-session.tsx:70
+msgid "Interval inversion"
+msgstr "Inversion d'intervalle"
+
 #: src/components/interval-name.tsx:30
 msgid "major"
 msgstr "majeure"
@@ -111,21 +147,22 @@ msgstr "majeure"
 msgid "minor"
 msgstr "mineure"
 
+#: src/pages/home.tsx:10
+#: src/pages/new-session.tsx:90
+msgid "New session"
+msgstr "Nouvelle session"
+
 #: src/components/interval-name.tsx:15
 msgid "ninth"
 msgstr "neuvième"
 
-#: src/pages/home.tsx:38
-msgid "Number of questions"
-msgstr "Nombre de questions"
+#: src/pages/new-session.tsx:74
+msgid "Note transposition"
+msgstr "Transposition de note"
 
 #: src/components/interval-name.tsx:14
 msgid "octave"
 msgstr "octave"
-
-#: src/pages/home.tsx:125
-msgid "Or"
-msgstr "Ou"
 
 #: src/components/interval-name.tsx:29
 msgid "perfect"
@@ -134,6 +171,10 @@ msgstr "juste"
 #: src/components/question-text.tsx:12
 msgid "Question {number}"
 msgstr "Question {number}"
+
+#: src/pages/new-session.tsx:121
+msgid "questions"
+msgstr "questions"
 
 #: src/components/interval-name.tsx:8
 msgid "second"
@@ -151,9 +192,9 @@ msgstr "♯"
 msgid "sixth"
 msgstr "sixte"
 
-#: src/pages/home.tsx:137
-msgid "Start random session"
-msgstr "Démarrer une session aléatoire"
+#: src/pages/new-session.tsx:129
+msgid "Start"
+msgstr "Démarrer"
 
 #: src/components/interval-name.tsx:16
 msgid "tenth"
@@ -171,10 +212,6 @@ msgstr "treizième"
 msgid "twelfth"
 msgstr "douzième"
 
-#: src/pages/home.tsx:58
-msgid "Type of question"
-msgstr "Type de question"
-
 #: src/components/interval-name.tsx:7
 msgid "unison"
 msgstr "unisson"
@@ -187,7 +224,7 @@ msgstr "Quel est l'intervalle entre un {note1} et un {note2}?"
 msgid "What is the inversion of a {interval}?"
 msgstr "Quelle est le renversement d'une {interval} ?"
 
-#: src/questions/intervals/interval-identification.tsx:38
+#: src/questions/intervals/interval-identification.tsx:39
 msgid "What is this interval?"
 msgstr "Quel est cet intervalle ?"
 

@@ -20,7 +20,7 @@ function Header() {
     <header className="h-16">
       <Link to="/" className="row items-center p-2 gap-2 h-full">
         <Icon className="h-full" />
-        <h1 className="text-center text-4xl font-semibold text-slate-500">{header.title}</h1>
+        <h1 className="text-center text-4xl font-semibold text-muted-foreground">{header.title}</h1>
       </Link>
     </header>
   );

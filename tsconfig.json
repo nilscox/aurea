@@ -8,10 +8,13 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "jsx": "preserve",
-    "types": ["vite-plugin-svgr/client", "vite/client"],
+    "types": ["node", "vite-plugin-svgr/client", "vite/client"],
     "noEmit": true,
     "isolatedModules": true,
     "strict": true,
-    "noUncheckedIndexedAccess": true
+    "noUncheckedIndexedAccess": true,
+    "paths": {
+      "src/*": ["./src/*"]
+    }
   }
 }
